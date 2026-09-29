@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermogeno</title>
+</head>
+<body>
+    <h1><?php
+    echo "CT-WA 213";
+    ?> <br>Krisshna R. Hermogeno</h1>
+    
+    <?php
+       print "CT-WA 213";
+
+       $name = "Krisshna R. Hermogeno";
+       $age = 19;
+       $human = true;
+       
+       echo "<br>";
+       var_dump($name);
+       echo "<br>";
+       var_dump($age);
+       echo "<br>";
+       var_dump($human);
+
+       echo "<br>";
+       printf("I am %s<3", $name);
+
+       echo "<br>";
+       $bsis2aarray = ["A", 1, true];
+       print_r($bsis2aarray);
+    
+       echo "<br>";
+       $ay = "Academic Year 2026-2027";
+       echo strlen($ay);
+
+       echo "<br>";
+       $ay = "Academic Year 20262027";
+       echo str_word_count($ay);
+
+       echo "<br>";
+       $ay = "Krisshna";
+       echo strrev($ay);
+       
+       echo "<br>";
+       $ay = "I likes cats";
+       echo str_replace("like", "love", $ay);
+
+       echo "<br>";
+       $ay = "I like cats";
+       echo strpos($ay, "cats");
+    ?>
+</body>
+</html>
